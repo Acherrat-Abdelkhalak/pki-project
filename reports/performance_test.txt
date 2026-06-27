@@ -1,0 +1,12 @@
+======================================
+ PKI PERFORMANCE TEST
+======================================
+
+Test: Certificate chain verification
+Certificate: leaf-certificates/server.cert.pem
+Iterations: 100
+
+Total time: 682 ms
+Average verification time: 6 ms
+
+Performance test completed.

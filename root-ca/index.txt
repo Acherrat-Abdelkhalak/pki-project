@@ -1,0 +1,1 @@
+V	310626192443Z		1000	unknown	/C=MA/ST=Tanger-Tetouan-Al Hoceima/O=Master MMSD/OU=Cryptography and Blockchain/CN=MMSD Intermediate CA/emailAddress=admin@mmsd.local

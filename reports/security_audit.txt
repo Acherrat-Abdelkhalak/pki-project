@@ -1,0 +1,18 @@
+======================================
+ PKI SECURITY AUDIT
+======================================
+
+1. Checking private directories
+[OK] root-ca/private permissions = 700
+[OK] intermediate-ca/private permissions = 700
+
+2. Checking private keys
+[OK] root-ca/private/root-ca.key.pem permissions = 400
+[OK] intermediate-ca/private/intermediate-ca.key.pem permissions = 400
+[OK] leaf-certificates/server.key.pem permissions = 400
+
+3. Checking encryption of CA private keys
+[OK] root-ca/private/root-ca.key.pem is encrypted
+[OK] intermediate-ca/private/intermediate-ca.key.pem is encrypted
+
+Recommendation: In a real PKI, the Root CA private key should be stored offline.

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+# Private keys - do not publish
+*.key.pem
+
+# Temporary files
+*.srl
+.DS_Store

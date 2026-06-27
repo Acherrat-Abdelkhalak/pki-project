@@ -1,0 +1,66 @@
+======================================
+ CERTIFICATE STATUS REPORT
+======================================
+
+--------------------------------------
+Root CA Certificate
+File: root-ca/certs/root-ca.cert.pem
+--------------------------------------
+[Subject]
+subject=C=MA, ST=Tanger-Tetouan-Al Hoceima, L=Tanger, O=Master MMSD, OU=Cryptography and Blockchain, CN=MMSD Root CA, emailAddress=admin@mmsd.local
+
+[Issuer]
+issuer=C=MA, ST=Tanger-Tetouan-Al Hoceima, L=Tanger, O=Master MMSD, OU=Cryptography and Blockchain, CN=MMSD Root CA, emailAddress=admin@mmsd.local
+
+[Serial Number]
+serial=60035CE30C9C65CC0B1353DA9DDF996F95AFCCA5
+
+[Validity]
+notBefore=Jun 27 17:33:50 2026 GMT
+notAfter=Jun 24 17:33:50 2036 GMT
+
+[Expiration check: 30 days]
+Certificate will not expire
+[OK] Certificate will not expire within 30 days
+
+--------------------------------------
+Intermediate CA Certificate
+File: intermediate-ca/certs/intermediate-ca.cert.pem
+--------------------------------------
+[Subject]
+subject=C=MA, ST=Tanger-Tetouan-Al Hoceima, O=Master MMSD, OU=Cryptography and Blockchain, CN=MMSD Intermediate CA, emailAddress=admin@mmsd.local
+
+[Issuer]
+issuer=C=MA, ST=Tanger-Tetouan-Al Hoceima, L=Tanger, O=Master MMSD, OU=Cryptography and Blockchain, CN=MMSD Root CA, emailAddress=admin@mmsd.local
+
+[Serial Number]
+serial=1000
+
+[Validity]
+notBefore=Jun 27 19:24:43 2026 GMT
+notAfter=Jun 26 19:24:43 2031 GMT
+
+[Expiration check: 30 days]
+Certificate will not expire
+[OK] Certificate will not expire within 30 days
+
+--------------------------------------
+Server Certificate
+File: leaf-certificates/server.cert.pem
+--------------------------------------
+[Subject]
+subject=C=MA, ST=Tanger-Tetouan-Al Hoceima, L=Tanger, O=Master MMSD, OU=Cryptography and Blockchain, CN=www.mmsd-pki.local
+
+[Issuer]
+issuer=C=MA, ST=Tanger-Tetouan-Al Hoceima, O=Master MMSD, OU=Cryptography and Blockchain, CN=MMSD Intermediate CA, emailAddress=admin@mmsd.local
+
+[Serial Number]
+serial=1000
+
+[Validity]
+notBefore=Jun 27 19:42:39 2026 GMT
+notAfter=Sep 29 19:42:39 2028 GMT
+
+[Expiration check: 30 days]
+Certificate will not expire
+[OK] Certificate will not expire within 30 days
